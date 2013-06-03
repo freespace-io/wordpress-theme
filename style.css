@@ -1,10 +1,11 @@
 /*  
-Theme Name: The One Pager (Modified for Freespace)
+Theme Name: Freespace IO
 Theme URI: http://www.woothemes.com/
-Version: 1.0.7
+Version: 1.0.7-a
 Description: Freespace version
-Author: WooThemes
+Author: WooThemes, modified by Freespace Engineering
 Author URI: http://www.woothemes.com
+Template: theonepager
 Tags: woothemes
 
 	Copyright: (c) 2009-2011 WooThemes.
@@ -3526,4 +3527,8 @@ img.ui-datepicker-trigger {
 /* IE specific styling */
 .ie8 .widget_woo_blogauthorinfo .avatar {
   width: auto;
+}
+
+#sub-hero {
+  border-radius: 10px; background: #ccc; padding: 15px;
 }
