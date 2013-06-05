@@ -572,7 +572,7 @@ ul.nav li.li.current-menu-item ul a {
 }
 /* Header */
 body.has-top-nav #header {
-  padding-top: 9.505em;
+  padding-top: 6.505em;
 }
 #header {
   margin: 0;
@@ -676,7 +676,7 @@ span.heading,
 }
 #content.home-widgets .widget_woo_component {
   margin: 0;
-  padding: 4.236em 0;
+  padding: 2.5em 0;
   border-bottom: 1px solid #dedede;
 }
 #content.home-widgets .widget_woo_component h2.widget-title {
@@ -2742,7 +2742,7 @@ html[xmlns] .flexslider .slides {
   color: #000000;
 }
 .flexslider.no-frame {
-  padding: 4.236em 0 9.505em;
+  padding: 4.236em 0 5.505em;
 }
 .flexslider.no-frame:after {
   content: "\0020";
@@ -3531,4 +3531,17 @@ img.ui-datepicker-trigger {
 
 #sub-hero {
   border-radius: 10px; background: #ccc; padding: 15px;
+}
+
+.sponsor {
+  float: left;
+  border: none !important;
+}
+
+.page header {
+  display: none !important;
+}
+
+.fourcol-one.last + .fourcol-one {
+  clear: left;
 }

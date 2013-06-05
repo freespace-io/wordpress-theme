@@ -39,6 +39,7 @@ if ( ! function_exists( 'wp' ) && ! empty( $_SERVER['SCRIPT_FILENAME'] ) && base
 ?>
 	<div id="content" class="home-widgets">
 		<?php woo_featured_slider_loader(); ?>
+		
 		<?php
 			if ( is_home() && ! dynamic_sidebar( 'homepage' ) ) {
 
